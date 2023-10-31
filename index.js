@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const { MongoClient } = require('mongodb');
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb://viaduct.proxy.rlwy.net:17600';
 const client = new MongoClient(url);
 const dbName = 'users';
 
